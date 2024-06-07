@@ -12,7 +12,7 @@ client.on("ready", () => {
     console.log("bot is ready");
 });
 
-client.login("MTAxMjY4NzUwNTM5NDUxNjA4MQ.GJ5ZX1.0Hges_oODjzeDAv590v7QunmidCH-QKrzIsZBc");
+client.login("");
 client.on("messageCreate", message => {
     if(message.author.bot) return;
 
